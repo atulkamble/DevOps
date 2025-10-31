@@ -6,6 +6,8 @@ https://github.com/atulkamble/git-practice
 https://github.com/atulkamble/aws-ec2-docker-nginx
 https://github.com/atulkamble/terraform-webserver-setup
 https://github.com/atulkamble/terraform-eks-nginx
+https://github.com/atulkamble/ec2-jenkins-agent-pipeline
 https://github.com/atulkamble/aws-vpc-peering
 https://github.com/atulkamble/ec2-ansible
+https://github.com/atulkamble/ansible-playbooks
 ```
