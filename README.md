@@ -13,6 +13,7 @@ https://github.com/atulkamble/git-docker-jenkins-project
 https://github.com/atulkamble/aws-vpc-peering
 https://github.com/atulkamble/ec2-ansible
 https://github.com/atulkamble/ansible-playbooks
+https://github.com/atulkamble/ec2-grafana-prometheus-node-exporter
 ```
 
 # Course 
