@@ -1,4 +1,4 @@
-# DevOps Training – Updated Assignment List
+# Assignments
 
 Total: 23 Assignments + 1 Final Project
 
