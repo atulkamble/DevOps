@@ -1,6 +1,22 @@
+# Tools
+``
+1. Git
+2. GitHub
+3. Docker
+4. Docker Compose
+5. Ansible
+6. Terraform
+7. Kubernetes
+8. AWS ECR
+9. AWS EKS
+10. Maven
+11. SonarQube
+12. Jenkins
+13. Prometheus
+14. Grafana
+```
 # DevOps Practical Assignments – Learning-Based Sequence
 
-Objective: Arrange all 23 assignments from beginner to advanced based on prerequisites, so students build their knowledge progressively and complete one integrated DevOps project.
 
 | No.   | Learning Stage | Practical Assignment       | Hands-on Tasks                                                                                             |
 | ----- | -------------- | -------------------------- | ---------------------------------------------------------------------------------------------------------- |
