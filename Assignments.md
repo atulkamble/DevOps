@@ -1,38 +1,31 @@
-# Assignments
+# DevOps Practical Assignments – Learning-Based Sequence
 
-Total: 23 Assignments + 1 Final Project
+Objective: Arrange all 23 assignments from beginner to advanced based on prerequisites, so students build their knowledge progressively and complete one integrated DevOps project.
 
-| No.   | Assignment                          | Practical Tasks                                                                                                                                                           |
-| ----- | ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1     | Git Basics & GitHub                 | Install Git, configure username/email, create repository, commit files, push and pull from GitHub.                                                                        |
-| 2     | Git Branching & Rollback            | Create branches, merge, rebase, cherry-pick, resolve conflicts, practice stash, reset, revert and restore.                                                                |
-| 3     | Docker Fundamentals                 | Install Docker, pull Nginx image, create and run container, expose port 8080, inspect container and view logs.                                                            |
-| 4     | Docker Images, Networking & Storage | Create Dockerfile, build and push image to Docker Hub, create custom network, configure volume and bind mount.                                                            |
-| 5     | Docker Compose                      | Create Docker Compose YAML for WordPress and MySQL, configure networking and persistent storage, start and stop services.                                                 |
-| 6     | Kubernetes Fundamentals             | Draw Kubernetes architecture, identify control plane and worker node components, explain Pods, Services and Deployments.                                                  |
-| 7     | Kubernetes Cluster, Pods & Services | Install Kubernetes tools, configure Minikube or kubeadm cluster, create Pod YAML, deploy Pod and expose using Service.                                                    |
-| 8     | Kubernetes Deployments & Ingress    | Create Deployment with 3 replicas, scale application, perform rolling update and rollback, configure Ingress routing.                                                     |
-| 9     | AWS ECR                             | Create private ECR repository, build Docker image, authenticate using AWS CLI, tag and push image to ECR.                                                                 |
-| 10    | AWS EKS                             | Create EKS cluster and node group, configure kubectl, deploy application using ECR image and verify Pods.                                                                 |
-| 11    | Kubernetes Scheduling               | Create namespaces, assign node labels, configure nodeSelector, apply taints and tolerations, verify Pod scheduling.                                                       |
-| 12    | Ansible Fundamentals                | Install Ansible, configure inventory, establish SSH connectivity, execute ping and ad-hoc commands.                                                                       |
-| 13    | Ansible Playbooks                   | Create YAML playbook to install Nginx, start service, deploy HTML page and verify application.                                                                            |
-| 14    | Ansible Roles & Variables           | Create Ansible role with tasks, handlers, templates and variables; execute reusable playbook.                                                                             |
-| 15    | Terraform Fundamentals              | Install Terraform, configure AWS provider credentials, create basic Terraform configuration and verify installation.                                                      |
-| 16    | Terraform Providers & Workflow      | Write Terraform code to provision AWS EC2 instance, execute init, plan, apply and destroy.                                                                                |
-| 17    | Terraform Variables & State         | Implement variables and outputs, configure remote state using S3 with locking, organize reusable Terraform configuration.                                                 |
-| 18    | Maven Build Automation              | Install Java and Maven, create Java project, configure pom.xml, execute compile, test and package.                                                                        |
-| 19    | SonarQube Code Quality              | Install SonarQube, create project, configure scanner, analyze source code and review quality reports.                                                                     |
-| 20    | Prometheus & Grafana                | Install Prometheus, configure Node Exporter, add scrape target, install Grafana and create monitoring dashboard.                                                          |
-| 21    | Jenkins Fundamentals                | Install Jenkins, configure administrator account, explore dashboard, create and execute first Jenkins job.                                                                |
-| 22    | Jenkins Freestyle Job               | Create freestyle job, connect GitHub repository, configure build steps and webhook, verify automated build.                                                               |
-| 23    | Jenkins CI/CD Pipeline              | Create Jenkinsfile, configure credentials, implement checkout, build, test and deployment stages, execute pipeline.                                                       |
-| Final | End-to-End DevOps Project           | Provision infrastructure using Terraform, configure with Ansible, build Docker image, push to GitHub Container Registry, deploy to Kubernetes and automate using Jenkins. |
+| No.   | Learning Stage | Practical Assignment       | Hands-on Tasks                                                                                             |
+| ----- | -------------- | -------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| 1     | Beginner       | Git Basics                 | Install Git, configure Git, initialize repository, add, commit, push and pull.                             |
+| 2     | Beginner       | Advanced Git               | Practice branching, merging, rebase, stash, cherry-pick, reset, revert and restore.                        |
+| 3     | Beginner       | Docker Basics              | Install Docker, pull images, create containers, expose ports, inspect logs and manage containers.          |
+| 4     | Beginner       | Docker Images & Storage    | Create Dockerfile, build images, push to Docker Hub, configure networks and volumes.                       |
+| 5     | Beginner       | Docker Compose             | Deploy WordPress and MySQL using Docker Compose with networking and persistent storage.                    |
+| 6     | Intermediate   | Ansible Basics             | Install Ansible, configure inventory, connect Linux servers and execute ad-hoc commands.                   |
+| 7     | Intermediate   | Ansible Playbooks          | Automate Nginx installation, configuration and website deployment using YAML playbooks.                    |
+| 8     | Intermediate   | Ansible Roles              | Create reusable roles with variables, handlers and Jinja2 templates.                                       |
+| 9     | Intermediate   | Terraform Basics           | Install Terraform, configure AWS provider and execute init, validate and plan.                             |
+| 10    | Intermediate   | Terraform Provisioning     | Create AWS EC2 instances, VPC and security groups using Terraform.                                         |
+| 11    | Intermediate   | Terraform State Management | Configure variables, outputs, remote S3 backend and state locking.                                         |
+| 12    | Intermediate   | Kubernetes Basics          | Create local Kubernetes cluster, understand architecture, create Pods and Services.                        |
+| 13    | Intermediate   | Kubernetes Workloads       | Deploy application using Deployments, ReplicaSets, ConfigMaps, Secrets and Ingress.                        |
+| 14    | Intermediate   | Kubernetes Scheduling      | Practice namespaces, labels, nodeSelector, taints and tolerations.                                         |
+| 15    | Intermediate   | AWS ECR                    | Create ECR repository, build Docker image, authenticate, tag and push image.                               |
+| 16    | Advanced       | AWS EKS                    | Create EKS cluster, configure worker nodes, deploy ECR image and expose application.                       |
+| 17    | Intermediate   | Maven Build Automation     | Create Java project, configure `pom.xml`, compile, test and package application.                           |
+| 18    | Intermediate   | SonarQube                  | Install SonarQube, scan Java application, analyze issues and verify quality gate.                          |
+| 19    | Intermediate   | Jenkins Basics             | Install Jenkins, configure plugins, create freestyle job and execute builds.                               |
+| 20    | Advanced       | Jenkins GitHub Integration | Connect GitHub repository, configure webhook and automate builds.                                          |
+| 21    | Advanced       | Jenkins CI/CD Pipeline     | Create Jenkinsfile to build Java application, run tests, scan code and build Docker image.                 |
+| 22    | Advanced       | Prometheus Monitoring      | Install Prometheus and Node Exporter, configure scrape targets and verify metrics.                         |
+| 23    | Advanced       | Grafana Monitoring         | Install Grafana, connect Prometheus and create CPU, memory and infrastructure dashboards.                  |
+| Final | Capstone       | End-to-End DevOps Project  | Integrate GitHub, Maven, SonarQube, Jenkins, Docker, ECR, EKS, Terraform, Ansible, Prometheus and Grafana. |
 
-## Assignment Submission Requirements
-
-1. GitHub repository link with code and configuration files.
-2. Screenshots of successful execution.
-3. Commands used during implementation.
-4. README.md containing execution steps.
-5. Final output and verification results.
